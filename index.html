@@ -1,0 +1,48 @@
+<html>
+  <body>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+      .player-options img,
+      .enemy-options img {
+        max-width: 200px;
+        opacity: 0.3;
+        cursor: pointer;
+      }
+      .resultado {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .player-options,
+      .enemy-options {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .align {
+        display: flex;
+      }
+    </style>
+    <h1 style="text-align: center">Pedra, papel ou tesoura!</h1>
+    <span class="resultado"></span>
+    <hr />
+    <div class="align">
+      <div class="player-options">
+        <div><img opt="pedra" src="assets/rock.png" /></div>
+        <div><img opt="papel" src="assets/paper.png" /></div>
+        <div><img opt="tesoura" src="assets/scisor.png" /></div>
+      </div>
+      <div class="enemy-options">
+        <div><img opt="pedra" src="assets/rock.png" /></div>
+        <div><img opt="papel" src="assets/paper.png" /></div>
+        <div><img opt="tesoura" src="assets/scisor.png" /></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
